@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RED VELVET Fan Page</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;background-color: #ADADAD;
+        }
+
+        header {
+            background-color: black ;
+            color: #E8A798;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #E8A798;
+            text-decoration: none;
+        }
+
+        .RED {
+            background: url('images/hero-bg.jpg') no-repeat center center/cover;
+        color: #5E005E;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;background-color: #E8A798;
+        }
+
+        
+
+        .members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .member {
+            flex: 1 1 30%;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .album, .mv iframe,{
+            flex: 1 1 45%;
+            margin: 10px;
+        }
+
+        footer {
+            background:black;
+            color: #FF5151;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer .social-media a {
+            color: #E8A798;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            .members, .albums, .mv, .playlist {
+                flex-direction: column;
+            }
+
+            .member, .album, .mv iframe, .playlist iframe {
+                flex: 1 1 100%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .   .RED {
+                padding: 50px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div class="logo"><h2>KPOP女王 RED VELVET</h2></div>
+        <nav>
+            <ul>
+                <li><a href="#first">回最上層</a></li>
+                <li><a href="#about">關於RED VELVET</a></li>
+                <li><a href="#music">專輯及MV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section id="first">
+        <div class="RED">
+            <p style="colo:#5E005E	;"><h1>讓我帶你簡單介紹這個世紀最完美的女團吧!(我說的)</h1></p>
+         </div>   
+        <div class="content news">
+            <span style="color:  #AE0000;"><p><h1>回歸新聞!</h1></p></span>
+        <img style="height: 50;width: 50;" src="https://im1.book.com.tw/image/getImage?i=https://www.books.com.tw/img/002/023/75/0020237574.jpg&v=66681695k&w=375&h=375">
+            <br><span style="color: #0000C6;text-decoration: underline;"><p><h2>2024/06/24 RED VELVET將以新專輯<COSMIC>強勢回歸，主打歌為專輯同名歌曲，敬請期待這次夏日女王的回歸!!!!!!</h2></p></span>
+          
+        </div>
+    </section>
+
+  
+    <section id="about" class="content">
+        <h2>RED VELVET簡介</h2>
+        <div class="members">
+            <div class="member">
+                <img style="width: 60%;height: 80%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSZkQILdlcgtTPKMJkw5KGmYh__pwPFMtIBSSl3OFEuDG5AUIcVj2f3ecDMNvuOmI_Z3Q&usqp=CAU" alt="Irene">
+                <span style="color:#BF0060"><h3>Irene</h3></span>
+                <p style="color: #BF0060;">
+                    本名:裴柱現<br>
+                    定位:隊長、視覺中心、領舞、主rapper<br>
+                    官方應援色:粉<br>
+             </p>   
+            </div>
+            <br>
+            <div class="member">
+                <img style="width: 60%;height: 80%;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiI8U0W02xVEOeWXWBajHq8lS8AF0xgX8tFw&s" alt="Seulgi">
+                <span style="color:#F75000"><h3>Seulgi</h3></span>
+                <p style="color: #F75000;">
+                    本名:康瑟琪<br>
+                    定位:領唱、主舞<br>
+                    官方應援色:橘<br>
+             </p>  
+            </div>
+            <br>
+            <div class="member">
+                <img style="width: 60%;height: 80%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO4YnMFH7eSpZpBZOg90VWTTQgB40aBA7SgAvPAGw8575OvqreLUFvE55Eg5XTE3jaI1w&usqp=CAU" alt="Wendy">
+                <span style="color:	#004B97"><h3>Wendy</h3></span>
+                <p style="color: #004B97;">
+                    本名:孫承完<br>
+                    定位:主唱<br>
+                    官方應援色:藍<br>
+             </p>  
+            </div>
+            <br>
+            <div class="member">
+                <img style="width: 40%;height: 70%;" src="https://i0.wp.com/www.fashionchingu.com/wp-content/uploads/2021/11/Joy-Red-Velvet-White-Pleated-Dress-21.jpg" alt="Joy">
+                <span style="color:#009100"><h3>Joy</h3></span>
+                <p style="color:#009100;">
+                    本名:朴秀英<br>
+                    定位:副唱、身高擔當<br>
+                    官方應援色:綠
+             </p>  
+            </div>
+            <div class="member">
+                <img style="width: 40%;height: 70%;"src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Kim_Yeri_at_Incheon_Airport_on_August_3%2C_2017.jpg/170px-Kim_Yeri_at_Incheon_Airport_on_August_3%2C_2017.jpg" alt="Yeri">
+               <span style="color:#AE00AE ;"><h3>Yeri</h3></span> 
+                <p style="color: #AE00AE;">
+                    
+                    本名:金藝琳<br>
+                    定位:忙內，副rapper<br>
+                    官方應援色:紫
+             </p>  
+            </div>
+        </div>
+        <div style="color: 	#28004D;" class="history">
+          
+<p><h2>Red Velvet 是韓國SM娛樂公司於2014年推出的女子音樂組合，由Irene、Seulgi、Wendy、Joy和Yeri五位成員組成。她們的音樂風格融合了多種流派，包括流行、R&B和電子音樂，並且經常以鮮明的視覺概念和創意舞台表演聞名。
+
+     </h2>
+</p>  
+     </div>
+    </section>
+
+    <section id="music" class="content">
+        <h1>專輯及音樂影片</h1>
+        <div class="albums">
+            <div class="album">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8QTB2Ai6t6P5T9iLWou2R50k4BsN7uDxcvg&s" alt="Chill Kill">
+                <span style="color:#336666"><h3>Chill Kill 是2024年他們睽違七年發行的第三張正規專輯，以輕快美妙的旋律傳達著屬於RED VELVET獨特的風格。</h3>
+                <p>其中包含了主打歌一首以及九首非主打，其中我最喜歡的是<underwater>，這首歌曲散發出的誘惑風格令人深陷其中無法自拔。</p></span>
+            </div><br>
+            <div class="album">
+                <img style="height: 60%;width: 20%;" src="https://i.scdn.co/image/ab67616d0000b273b64001fa6292caefc7605550" alt="THE PERFECT RED VELVET">
+               <span style="color:#336666;"> <h3>THE PERFECT RED VELVET是他們在2018推出的正規二改專，其中主打歌BAD BOY以強烈的GIRL CRUSH風贏得很大的凡響，深受大眾喜愛。</h3>
+                <p>以一首主打歌及五首非主打組成，其中我最喜歡<I JUST>這首歌，以充滿幻想的歌詞及洗腦的旋律帶給聽眾不同的感受，是一首魅力極大的歌曲。</p></span>
+            </div>
+        </div><br>
+        <br>
+        <br>
+        <div class="mv">
+            <h2>個人最愛音樂影片</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/J_CFBjAyPWE?si=uZhI-sMb-Ct_9xKd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/h3zLwp3NzYI?si=akiCgsrRmZMhaA3l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    <br>
+   
+    <footer>
+        <p><h2>想更深入了解他們嗎?快來追蹤他們!!!</h2></p>
+        <div class="social-media">
+            <a style="color: #FF5151;" href="https://twitter.com/RVsmtown" target="_blank">追蹤Twitter請點!</a><br>
+            <a style="color: #FF5151;" href="https://www.instagram.com/redvelvet.smtown" target="_blank">追蹤Instagram請點!</a><br>
+            <a style="color: #FF5151;" href="https://www.facebook.com/RedVelvet" target="_blank">追蹤Facebook請點!</a>
+        </div>
+    </footer>
+</body>
+</html>
